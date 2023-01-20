@@ -10,7 +10,6 @@ function solution(t, p) {
     if (Number(arr2[s]) <= Number(p)) {
       answer++;
     }
-
   }
   return answer;
 }
