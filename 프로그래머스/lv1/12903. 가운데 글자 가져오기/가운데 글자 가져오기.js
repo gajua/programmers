@@ -4,5 +4,4 @@ function solution(s) {
   } else {
     return s[Math.floor(s.length / 2)];
   }
-  return answer;
 }
