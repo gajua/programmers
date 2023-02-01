@@ -2,7 +2,7 @@ function solution(operations) {
   let arr = [];
   for (let i = 0; i < operations.length; i++) {
     if (operations[i][0] === 'I') {
-      arr.push(Number(operations[i].slice(1)));
+      arr.push(operations[i].slice(1));
     } else {
       if (operations[i].slice(1) == -1) {
         arr.shift();
