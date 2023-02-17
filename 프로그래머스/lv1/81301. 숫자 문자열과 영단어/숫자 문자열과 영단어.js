@@ -1,5 +1,4 @@
 function solution(s) {
-  var answer = 0;
   const obj = {
     zero: 0,
     one: 1,
@@ -15,5 +14,5 @@ function solution(s) {
   for (const i in obj) {
     s = s.replaceAll(i, obj[i]);
   }
-    return parseInt(s)
+  return parseInt(s);
 }
