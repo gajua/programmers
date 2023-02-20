@@ -7,8 +7,6 @@ function solution(food) {
       b.push(i);
     }
   }
-  answer.push(...b);
-  answer.push(0);
-  answer.push(...b.reverse());
+  answer = [...b, 0, ...b.reverse()];
   return answer.join("");
 }
